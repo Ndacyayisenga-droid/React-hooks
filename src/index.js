@@ -4,7 +4,8 @@ import App from './App';
 import Count from './components/Count';
 import School from './components/School';
 import Times from './components/Times';
-
+import Home from './components/Home';
+import Timer from './useeffect/Timer';
 
 
 
@@ -15,6 +16,8 @@ root.render(
     <Count />
     <School />
     <Times />
+    <Home />
+    <Timer />
   </React.StrictMode>
 );
 
