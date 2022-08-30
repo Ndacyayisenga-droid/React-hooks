@@ -6,6 +6,7 @@ import School from './components/School';
 import Times from './components/Times';
 import Home from './components/Home';
 import Timer from './useeffect/Timer';
+import User from './useeffect/User.';
 
 
 
@@ -18,6 +19,7 @@ root.render(
     <Times />
     <Home />
     <Timer />
+    <User />
   </React.StrictMode>
 );
 
